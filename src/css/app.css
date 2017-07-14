@@ -8,6 +8,10 @@
   color: rgb(255, 255, 255)!important;
 }
 
+.right-own-menu-style a {
+  padding: 16px 15px 16px 0px;
+}
+
 .right-own-menu-style a:visited {
   color: rgb(255, 255, 255)!important;
 }
@@ -15,6 +19,14 @@
 .own-top-bar-style {
   background: rgba(0,0,0, 0.4)!important;
   z-index: 1;
+}
+
+/*.own-top-bar-style a {
+  padding: 10px 10px 10px 0px;
+}*/
+
+.own-top-bar-style a:visited {
+  color: rgb(255, 255, 255)!important;
 }
 
 .own-slider-style {
@@ -107,4 +119,27 @@
   padding-top: 15px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+}
+
+.own-row-style {
+  margin-top: -55px;
+}
+
+.recipie-wrapper {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.recipie-wrapper h5 {
+  font-weight: bold;
+}
+
+.recipie-wrapper p {
+  font-size: 14px;
+}
+
+.recipie-list-style {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
 }
